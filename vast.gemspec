@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob('lib/**/*') + %w(LICENSE README.rdoc CHANGELOG.md)
   s.require_path = 'lib'
 
-  s.add_dependency 'nokogiri', '~> 1.5'
+  s.add_dependency 'nokogiri', '~> 1'
 
   s.add_development_dependency 'gem-release'
   s.add_development_dependency 'pathological'
